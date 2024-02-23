@@ -1,5 +1,5 @@
 <?php
 //all the variables defined here are accessible in all the files that include this one
-$con= new mysqli('localhost:8111','root','','project')or die("Could not connect to mysql".mysqli_error($con));
+$con= new mysqli('localhost','shakti','nicksha@123','project')or die("Could not connect to mysql".mysqli_error($con));
 
 ?>
